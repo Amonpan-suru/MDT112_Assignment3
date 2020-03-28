@@ -3,26 +3,21 @@ using System.Collections.Generic;
 using UnityEngine;
 
 public class mouse : MonoBehaviour
-{
-    
-    private void OnMouseDrag()
-    {
-        Vector3 mousePosWorld = Input.mousePosition;
-        mousePosWorld.z = transform.position.z - Camera.main.transform.position.z;
-        mousePosWorld = Camera.main.ScreenToViewportPoint(mousePosWorld);
+{public GameObject goalGameobject;    
+    void OnMouseDrag() {
 
-        transform.position = new Vector3(mousePosWorld.x, mousePosWorld.y, transform.position.z);
-        //Vector3 mousePosWorld = Camera.main.ScreenToWorldPoint(Input.mousePosition);
-        Debug.Log(gameObject.name);
+        
+        Vector3 MousePos = Input.mousePosition;
+        MousePos.z = transform.position.z - Camera.main.transform.position.z;
+        MousePos = Camera.main.ScreenToWorldPoint(MousePos);
+        
+        transform.position = new Vector3 (MousePos.x,MousePos.y,transform.position.z);
     }
-/*
-    private void OnTriggerEnter(Collider other)
+
+    void OnTriggerEnter(Collider other)
     {
-        if (other.gameObject.Equals())
-        {
-            Debug.Log("win");
+        if(other.gameObject.Equals(goalGameobject)){
+            Debug.Log("Win");
         }
     }
-    */
-
 }
