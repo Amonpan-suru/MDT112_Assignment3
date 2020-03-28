@@ -1,0 +1,27 @@
+﻿<Properties StartupConfiguration="{FB9FAE36-040B-30C0-AD33-8AB0A30CB6C7}|">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/script/mouse.cs">
+    <Files>
+      <File FileName="Assets/script/mouse.cs" Line="26" Column="7" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="Assigment3" expanded="True">
+            <Node name="Assets" expanded="True">
+              <Node name="script" expanded="True">
+                <Node name="mouse.cs" selected="True" />
+              </Node>
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.ItemProperties.Assembly-CSharp PreferredExecutionTarget="80ef207c-8083-4931-b214-83e8d46e49b6" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MultiItemStartupConfigurations />
+</Properties>
